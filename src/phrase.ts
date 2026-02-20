@@ -13,7 +13,7 @@ export interface Options {
     cacheExpirationTime: number,
     host?: string,
     debug?: boolean,
-    format?: string
+    format?: 'i18next' | 'i18next_4'
 }
 
 export default class Phrase {
